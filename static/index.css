@@ -54,16 +54,18 @@ body, div
     overflow: auto;
     color: black;
     position: relative;
-    padding: 5%;
+    
 }
 #intro
 {
+    padding: 5vw;
     position: relative;
     margin: 0;
 }
 
 #nameanimate
 {
+    padding: 5vw;
     position: relative;
     margin: 0;
 }
@@ -240,5 +242,5 @@ body, div
 }
 #pad
 {
-    padding: 0%;
+    padding: 5vw;
 }
