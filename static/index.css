@@ -240,6 +240,19 @@ body, div
     height: auto;
     align-self: center;
     position: absolute;
+    animation-timing-function: linear;
+    animation-name: changebuttoncolor;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-name: changebuttoncolor;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-direction: alternate;
+
 }
 #btn:hover
 {
@@ -252,4 +265,26 @@ body, div
     padding-right: 5vw;
     padding-top: 0;
     padding-bottom: 0;
+}
+@keyframes changebuttoncolor
+{
+    0%
+    {
+        background-color: blue;
+        color: white;
+    }
+    50%
+    {
+        background-color: white;
+        color: black;
+    }
+    100%
+    {
+        background-color: blue;
+        color: white;
+    }
+}
+.cur
+{
+    cursor: pointer;
 }
