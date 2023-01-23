@@ -1,0 +1,19 @@
+.animate
+{
+    display: grid;
+    grid-template-columns: 1vw 2vw 5vw 4vw 2vw 6vw 10vw 5vw 3vw 7vw 5vw 10vw 9vw 7vw 2vw 6vw 5vw 1vw 4vw 6vw;
+    grid-template-rows: 5vh 4vh 10vh 15vh 6vh 7vh 8vh 5vh 2vh 8vh 4vh 8vh 9vh 4vh 5vh;
+    position: relative;
+    background-color: blue;
+    width: 100vw;
+    height: 100vh;
+}
+.login-div
+{
+    width:100vw;
+    max-width: 450px;
+    height: 50vh;
+    position: absolute;
+    top:25vh;
+    left:50vw;
+}
