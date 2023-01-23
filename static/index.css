@@ -58,14 +58,20 @@ body, div
 }
 #intro
 {
-    padding: 5px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 0;
+    padding-bottom: 0;
     position: relative;
     margin: 0;
 }
 
 #nameanimate
 {
-    padding: 5px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 0;
+    padding-bottom: 0;
     position: relative;
     margin: 0;
 }
@@ -242,5 +248,8 @@ body, div
 }
 #pad
 {
-    padding: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 0;
+    padding-bottom: 0;
 }
