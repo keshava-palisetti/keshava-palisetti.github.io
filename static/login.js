@@ -1,2 +1,2 @@
-var register_div = document.getElementById("login-div");
-document.getElementById("login-div").style.translate = "-50% 0 0";
+var login_div = document.getElementById("login-div");
+login_div.style.translate = "-50% -50% 0";
