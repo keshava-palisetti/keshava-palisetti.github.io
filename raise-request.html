@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- meta tags are used to control viewport, meta data(author, content etc.), refresh rate -->
+        <meta name="keywords" content="happy,birthday,wish">
+        <meta name="usage" content="wish-birthday">
+        <meta name="author" content="Keshava Palisetti"> 
+        <!-- refreshes the document every 60 sec -->
+        <meta http-equiv="refresh" content="120">   
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> 
+        <link href="./static/raise.css" rel="stylesheet">
+        <!-- <base href="https://wish-you-a-happy-birthday.000webhostapp.com/" target="_blank"> -->
+        <title>Happy Birthday</title>
+        <!-- favicon is the icon appears on the right side of the document title -->
+        <link rel="icon" type="image/x-icon" href="./src/cak.ico">
+    </head>
+    <body>
+        <div class="background-div" id="outer-div">
+        </div>
+        <div class="register-div" id="register-div">
+            <fieldset>
+                <legend class="legend red" id="info">
+                    <b><i>Personal Information</i></b>
+                </legend>
+                <br>
+                <div id="user-request">
+                    <p><u><b>User Request</b></u></p>
+                </div>
+                <br>
+                <div class="input-text">
+                    <label for="firstname"><b>Your Full Name* : </b></label>
+                    <input type="text" id="fname" />
+                </div>
+                <br>
+                <div class="input-text">
+                    <label for="firstname"><b>Recipient First Name* : </b></label>
+                    <input type="text" id="fname" />
+                </div>
+                <br>
+                <div class="input-text">
+                    <label for="lastname"><b>Recipient Last Name* : </b></label>
+                    <input type="text" id="lname" />
+                </div><br>
+                <div class="input-text">
+                    <label for="dateofbirth"><b>Date of Birth* : </b></label>
+                    <input type="date" id="dob" />
+                </div>
+                <br>
+                <div class="input-text">
+                    <label for="email"><b>Recipient Email* : </b></label>
+                    <input type="email" id="email" />
+                </div><br>
+                <div class="input-text">
+                    <b>Relationship with Recipient :</b> 
+                    <select>
+                        <option value="Father">Father</option>
+                        <option value="Mother">Mother</option>
+                        <option value="Friend">Friend</option>
+                        <option value="Brother/Sister">Brother/Sister</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <br>  
+            <button type="button" class="sub-btn" id="submit">Submit Request</button><br><br>
+            <div class="endline"></div>
+            <div class="input-text">
+                <b><p style="color: black;"> To sign in as admin <a href="./admin.html"><u style="color:blue">click here</u></a></p></b>
+            </div>     
+            </fieldset>
+        </div>    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./static/raise.js"></script>
+    </body>
+</html> 

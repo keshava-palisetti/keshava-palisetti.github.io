@@ -1,0 +1,234 @@
+@media only screen and (max-width:960px)
+{
+    .col-s-1 {width:100vw;}
+}
+@media only screen and (min-width:960px)
+{
+    .col-1 {width:15vw;}
+    .col-2 {width:70vw;}
+    .col-3 {width:15vw;}
+}
+.grid-div
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 100vh;
+    background-color: blueviolet;
+    overflow: auto;
+    animation-timing-function: linear;
+    animation-name: maincolorchange;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-name: maincolorchange;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-direction: alternate;
+}
+.mid-div
+{
+    border-radius: 10vh;
+    background-color: wheat;
+    animation-timing-function: linear;
+    animation-name: subcolorchange;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-name: subcolorchange;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-direction: alternate;
+    overflow: auto;
+    color: black;
+    position: relative;
+}
+#intro
+{
+    padding: 5%;
+    position: relative;
+    margin: 0;
+}
+
+#nameanimate
+{
+    padding: 5%;
+    position: relative;
+    margin: 0;
+}
+.side1-div
+{
+    background-color: yellowgreen;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.side2-div
+{
+    background-color: yellowgreen;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+#left-div1, #left-div3, #left-div5, #right-div2, #right-div4, #left-div2, #left-div4, #right-div1, #right-div3, #right-div5
+{
+    background-color: blueviolet;
+    position: relative;
+    animation-timing-function: linear;
+    animation-name: colchan;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-name: colchan;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-direction: alternate;
+    overflow: hidden;
+}
+@keyframes subcolorchange
+{
+    0%
+    {
+        background-color: wheat;
+        color: black;
+    }
+    50%
+    {
+        background-color: black;
+        color: white;
+    }
+    100%
+    {
+        background-color: wheat;
+        color: black;
+    }
+}
+@keyframes maincolorchange
+{
+    0%
+    {
+        background-color: blueviolet;
+    }
+    50%
+    {
+        background-color: white;
+    }
+    100%
+    {
+        background-color: blueviolet;
+    }
+}
+.left-child1, .left-child3, .left-child5, .right-child2, .right-child4
+{
+    width: 3vw;
+    height: 6%;
+    background-color: wheat;
+    animation-timing-function: linear;
+    animation-name: movedown;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-name: movedown;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-direction: alternate;
+    border: 0px;
+    position: absolute; 
+    top: 0%;
+}
+.left-child2, .left-child4, .right-child1, .right-child3, .right-child5
+{
+    width: 3vw;
+    height: 6%;
+    background-color: wheat;
+    animation-timing-function: linear;
+    animation-name: moveup;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-name: moveup;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-direction: alternate;
+    position: absolute; 
+    border: 0px;
+    bottom: 0%;
+}
+@keyframes movedown
+{
+    0%
+    {
+        background-color: wheat;
+        top: 0%;
+    }
+    50%
+    {
+        background-color: black;
+        top: 94%;
+    }
+    100%
+    {
+        background-color: wheat;
+        top: 0%;
+    }
+}
+@keyframes moveup
+{
+    0%
+    {
+        background-color: wheat;
+        bottom: 0%;
+    }
+    50%
+    {
+        background-color: black;
+        bottom: 94%;
+    }
+    100%
+    {
+        background-color: wheat;
+        bottom: 0%;
+    }
+}
+@keyframes colchan
+{
+    0%
+    {
+        background-color: blueviolet;
+    }
+    50%
+    {
+        background-color: white;
+    }
+    100%
+    {
+        background-color: blueviolet;
+    }
+}
+#btn
+{
+    background-color: blue;
+    color: white;
+    border-radius: 10%;
+    width:10%;
+    height: auto;
+    align-self: center;
+    position: absolute;
+}
+#btn:hover
+{
+    color: gold;
+    background-color: green;
+}
